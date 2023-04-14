@@ -10,6 +10,8 @@ class ResultsPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('BMI Calculator'),
+        centerTitle: true,
+        backgroundColor: Color.fromARGB(233, 0, 68, 48),
       ),
       body: Center(
         child: Column(
